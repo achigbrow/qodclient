@@ -10,6 +10,19 @@
   tools:context=".controller.MainActivity"
   tools:showIn="@layout/activity_main">
 
+  <EditText
+  android:id="@+id/search"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:inputType="text"
+  app:layout_constraintLeft_toLeftOf="parent"
+  app:layout_constraintTop_toTopOf="parent"
+  android:hint="@string/search"
+  />
 
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toRightOf="@+id/search"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
